@@ -1,7 +1,7 @@
 # vite-plugin-public-outdir
 Change where public files are copied to in a build.
 
-[![NPM Version](https://img.shields.io/npm/v/vite-plugin-public-outdir)](https://www.npmjs.com/package/vite-plugin-bundle-scripts)
+[![NPM Version](https://img.shields.io/npm/v/vite-plugin-public-outdir)](https://www.npmjs.com/package/vite-plugin-public-outdir)
 [![NPM License](https://img.shields.io/npm/l/vite-plugin-public-outdir)](./LICENSE)
 
 ## Installation ##

@@ -2,7 +2,7 @@
   "name": "vite-plugin-public-outdir",
   "description": "Adjust where public files are copied to in a build",
   "homepage": "https://github.com/wrapperup/vite-plugin-public-outdir",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "private": false,
   "author": {
