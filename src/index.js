@@ -1,3 +1,6 @@
+import { resolve } from "path";
+import fs from "node:fs";
+
 function copyDir(srcDir, destDir) {
   fs.mkdirSync(destDir, { recursive: true })
   for (const file of fs.readdirSync(srcDir)) {
@@ -40,7 +43,7 @@ function publicOutDirPlugin(publicOutDir) {
         publicDir &&
         fs.existsSync(publicDir)
       ) {
-        const src = resolve(`${__dirname}/${publicDir}`);
+        const src = resolve(`${viteConfig.root}/${publicDir}`);
         const dest = resolve(`${viteConfig.build.outDir}/${publicOutDir}`);
 
         copyDir(src, dest);
