@@ -1,0 +1,48 @@
+{
+  "name": "vite-plugin-public-outdir",
+  "description": "Adjust where public files are copied to in a build",
+  "homepage": "https://github.com/wrapperup/vite-plugin-public-outdir",
+  "version": "0.1.0",
+  "license": "MIT",
+  "private": false,
+  "author": {
+    "name": "Matthew Taylor",
+    "url": "https://github.com/wrapperup/"
+  },
+  "type": "module",
+  "main": "./src/index.js",
+  "module": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wrapperup/vite-plugin-public-outdir.git"
+  },
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "package.json",
+    "README.md",
+    "LICENSE",
+    "src"
+  ],
+  "keywords": [
+    "vite",
+    "vitejs",
+    "plugin",
+    "vite-plugin",
+    "public",
+    "outdir",
+    "copy"
+  ],
+  "devDependencies": {
+    "vite": "^5.0.12"
+  },
+  "peerDependencies": {
+    "vite": "^3.0.0 || ^4.0.0 || ^5.0.0"
+  },
+  "engines": {
+    "node": ">= 16.15.1",
+    "npm": ">= 8.11.0"
+  }
+}
